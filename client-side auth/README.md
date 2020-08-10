@@ -1,23 +1,23 @@
 
 # Client-side authentication configuration for nginx
 
-1) Create new ca
+### 1) Create new ca
 
 Run new_ca.sh 'ca_name'
 
 
-2) Create client certificate
+### 2) Create client certificate
 
 Run new_ca.sh 'ca_name' 'client-certifiacate-name' 'mail_to'
-
 If you waht get cert by email you had to install mutt, otherwise just comment last string at script.
 
 
-3) To revoke 
+### 3) To revoke 
 
 Run revoke.sh 'ca_name' 'client-certifiacate-name'
 
-4) Nginx Config
+
+### 4) Nginx Config
 
 #path to ca
 ssl_client_certificate /etc/nginx/ssl/'ca_name'/certs/ca.crt;
