@@ -9,6 +9,7 @@ Run new_ca.sh 'ca_name'
 ### 2) Create client certificate
 
 Run new_ca.sh 'ca_name' 'client-certifiacate-name' 'mail_to'
+
 If you waht get cert by email you had to install mutt, otherwise just comment last string at script.
 
 
