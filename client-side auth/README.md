@@ -21,13 +21,19 @@ Run revoke.sh 'ca_name' 'client-certifiacate-name'
 ### 4) Nginx Config
 
 #path to ca
+
 ssl_client_certificate /etc/nginx/ssl/'ca_name'/certs/ca.crt;
+
 #path to revoke crl
+
 ssl_crl /etc/nginx/ssl/'ca_name'/private/ca.crl;
 
 ssl_verify_client optional;
+
 ssl_verify_depth 1;
 
 if ($ssl_client_verify != SUCCESS) {
+
         return 403;
+        
         }
