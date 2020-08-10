@@ -34,6 +34,6 @@ ssl_verify_depth 1;
 
 if ($ssl_client_verify != SUCCESS) {
 
-        return 403;
-        
-        }
+return 403;
+     
+}
