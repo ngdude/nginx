@@ -8,7 +8,7 @@ Run new_ca.sh 'ca_name'
 
 ### 2) Create client certificate
 
-Run new_ca.sh 'ca_name' 'client-certifiacate-name' 'mail_to'
+Run new_client.sh 'ca_name' 'client-certificate-name' 'mail_to'
 
 If you want to get cert by email you had to install mutt and configurate mta, otherwise just comment last string at script.
 
