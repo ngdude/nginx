@@ -10,7 +10,7 @@ Run new_ca.sh 'ca_name'
 
 Run new_ca.sh 'ca_name' 'client-certifiacate-name' 'mail_to'
 
-If you waht get cert by email you had to install mutt, otherwise just comment last string at script.
+If you want to get cert by email you had to install mutt and configurate mta, otherwise just comment last string at script.
 
 
 ### 3) To revoke 
