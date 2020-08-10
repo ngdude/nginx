@@ -1,1 +1,3 @@
 
+# Client-side authentication configuration
+
